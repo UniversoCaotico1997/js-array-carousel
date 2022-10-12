@@ -8,8 +8,45 @@ img{
 }
 .container{
    width: 80%;
+   height: 600px;
    margin: auto;
    margin-top: 2rem;
-  
+   position: relative;
 }
+.slide{
+    height: 200px;
+    width: 150px;  
+    position: absolute;
+}
+.one{
+    top: 0;
+    right: 0; 
+}
+.two{
+    top: 150px;
+    right: 0;
+}
+.three{
+    top: 300px;
+    right: 0;
+}
+.fourth{
+    top: 350px;
+    right: 0;
+}
+.fifth{
+    bottom: 0;
+    right: 0;
+}
+.arrow{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    
+}
+
+
+
 
